@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        *{
+            margin: 0;
+        }
+header{
+position: absolute;
+left: 0;
+width: 100%;
+z-index: 2;
+        }
+header .container{
+    padding-left: 70px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+header h2{
+    color: rgb(55, 184, 235);
+    font-family: Lobster;
+    font-size: 32px;
+}
+header nav{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+header nav ul{
+display: flex;
+list-style-type: none;
+}
+header nav ul li a{
+display: block;
+padding: 30px 40px;
+color: white;
+font-family:sans-serif;
+font-weight: bold;
+}
+main {
+            width: 100%;
+            min-height: 100vh;
+            background-image: url("../work/background.jpg");
+            background-size: cover;
+            position: relative;
+            font-family:sans-serif;
+
+        }
+.overlay{
+         position:absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background-color:rgb(0 0 0 / 60%)
+        }
+.center{
+          display: flex;  
+          justify-content: center;
+          position: relative;
+          left: 50%;
+          top: 10%;
+          transform: translateY(-10%);
+          transform: translateX(-50%);
+        }
+.text{
+            position: relative;
+            color: white;
+            text-align: center;
+            padding:150px 50px 30px 50px;
+            background-color: rgb(30, 35, 38);
+            margin-top: 70px;
+        }
+.text h2{
+            font-weight: bold;
+            padding: 10px 0 0 0; 
+        }
+.text p{
+          font-size: 12px; 
+          padding: 5px 0 0 0;
+        }
+.pic {
+            position: absolute;
+       
+        }
+.pic img{
+            width: 200px;
+            height: 200px;   
+            border-width: 5px;
+            border-style: solid;
+            border-radius: 50%;
+            border-color: rgb(55 184 235 );
+            outline: 20px;
+            outline-style: solid;
+            outline-color: rgb(55 184 235 /30%); ; 
+        }
+.social{
+            display: flex;
+            justify-content: center;
+            padding: 10px 0 0 0;
+        }
+.social img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border-width: 1px;
+            border-style:solid;
+            border-color: white;
+            margin: 2px;
+            padding: 3px;
+        }
+section{
+            position: absolute;
+            width: 100%;
+            color: white;
+            background-color: rgb(30, 35, 38);
+            left: 0;
+            top:55%;
+            font-family: sans-serif;
+        }
+section h1{
+            text-align: center;
+            font-size: 40px;
+            padding-top: 50px; 
+            text-decoration: underline;
+            text-decoration-color: rgb(55 184 235 );  
+        }
+section P{
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+section P strong{
+               color: rgb(55 184 235 );
+        }
+section pre{
+            font-family: sans-serif;
+        }
+section pre strong{
+            color:  rgb(55 184 235 );
+        }
+section pre a{
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+        }
+.buttomcontainer{
+        display: flex;
+        }
+.details h2{
+            margin: 20px;
+            padding-left: 50px;
+        }
+       
+.interests {
+         position: absolute;
+         width: 310;
+         left: 50%;
+         margin-top: 20px;
+        }
+.interests img{
+            width: 85px;
+            height: 80px;
+        }
+.interestscontainer{
+            margin-top: 20px;
+            width: min-content;
+            display: flex;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+.coulmn{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    </style>
+     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <title>Ayman Alnajjar</title>
+  </head>
+  <body>
+<header>
+ <div class="container">
+     <h2>AymanALnajjar</h2>
+     <nav>
+         <ul>
+             <li><a>HOME</a></li>
+             <li><a>ABOUT</a></li>
+             <li><a>INTERESTS</a></li>
+             <li><a>CONTACT</a></li>
+             
+         </ul>
+     </nav>
+ </div>   
+</header>
+<main>   
+   <div class="overlay">
+     <div class="center">   
+         <div class="text">
+         <h2>Ayman Alnajjar<br></h2>
+         <p>Programmer & Web Developer</p> 
+            <div class="social">
+             <a  target="_blank" href="https://www.facebook.com/ayman.alnajjar.940"><img src="../img/face book white.png" alt="facebook"></a>
+             <a target="_blank" href="https://www.instagram.com/ayman_alnajjar98/?hl=en"> <img src="../img/insta white.png" alt="insta"></a>
+             <a target="_blank" href="https://github.com/AymanAlnajjar98"><img src="../img/github.png" alt="github"></a>
+             <a target="_blank" href="https://www.freecodecamp.org/fccb54ca0b1-20dd-45b2-b45f-19777ac2f30a"><img src="../img/code camp white.png" alt="codecamp"></a>
+             <a target="_blank" href="https://www.codewars.com/users/AymanAlnajjar98"><img src="../img/code war white.png" alt="codewar"> </a>
+            </div>
+         </div>
+         <div class="pic">
+            <img src="../img/profile pic.jpg" alt="profile pic">
+         </div>
+     </div>
+   </div>
+   <section>
+    <h1>About me<br><br></h1>
+    <p><strong>Hello I'm Ayman</strong> a programmer. actually i will be graduated this semester and i will have a computer science degree, my plane for after graduation is to become 
+        a full stack web developer, and i did chose GSG because it's the best place to improve my skills and be ready to join the free lancing market or to have a full time job
+        in a wellknown company and have a real sucssful carrer in web development field. 
+    </p>
+    <div class="buttomcontainer">
+     <div class="details">
+         <h2>Personal Details</h2>
+         <pre>
+                <strong>BirthDate</strong>           27/7/1998
+
+                <strong>PhoneNO</strong>           0595446006
+
+                <strong>E-Mail</strong>                ayman.a.m.allnajjar@gmail.com
+
+                <strong>CodeCamp</strong>        <a href="https://www.freecodecamp.org/fccb54ca0b1-20dd-45b2-b45f-19777ac2f30a" target="_blank">https://www.freecodecamp.org/fccb54ca0b1-20dd-45b2-b45f-19777ac2f30a</a>
+
+                <strong>CodeWar</strong>          <a href="https://www.codewars.com/users/AymanAlnajjar98" target="_blank"> https://www.codewars.com/users/AymanAlnajjar98</a>
+                
+                <strong>Github</strong>              <a href="https://github.com/AymanAlnajjar98/my-web-site" target="_blank"> https://github.com/AymanAlnajjar98/my-web-site</a>
+
+         <pre>
+        </div>
+         <div class="interests">
+         <h2>My Interests</h2>
+         <div class="interestscontainer">
+            <div class="coulmn"> 
+                <img src="../img/games croped.png" alt="games">
+                <img src="../img/music.png" alt="music">
+            </div>
+            <div class="coulmn">
+                <img src="../img/cinema.png" alt="cinema">
+                <img src="../img/cars.png" alt="cars">
+            </div>
+            <div class="coulmn">  
+                <img src="../img/coffee.png" alt="coffe">
+                <img src="../img/mac.png" alt="mac">
+            </div>
+            <div class="coulmn">
+                <img src="../img/money.png" alt="money">
+                <img src="../img/travel.png" alt="travel">
+            </div>
+         </div>
+        </div>
+     </div>
+    </section>
+</main>
+  </body>
+</html>
